@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33801.468
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechSysLog.API", "TechSysLog.API\TechSysLog.API.csproj", "{1E7B81AA-08BE-4646-80C8-A30899F629FE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechsysLogProj.Application", "TechsysLogProj.Application\TechsysLogProj.Application.csproj", "{9CE73377-FA24-4CE2-8C01-ED5E81993745}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechsysLogProj.Cross", "TechsysLogProj.Cross\TechsysLogProj.Cross.csproj", "{DD74053C-FB52-4E87-BD19-C7D9E5D1EF48}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechsysLogProj.Domain", "TechsysLogProj.Domain\TechsysLogProj.Domain.csproj", "{33C8BDD2-2704-4574-817A-6C5E68233B03}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechsysLogProj.Infra", "TechsysLogProj.Infra\TechsysLogProj.Infra.csproj", "{625EED79-5CFF-4D1C-9500-23E5B9816B8F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechsysLogProj.Tests", "TechsysLogProj.Tests\TechsysLogProj.Tests.csproj", "{589B2C53-5FAF-4E41-944E-4C3F6950AA89}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E7B81AA-08BE-4646-80C8-A30899F629FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E7B81AA-08BE-4646-80C8-A30899F629FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E7B81AA-08BE-4646-80C8-A30899F629FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E7B81AA-08BE-4646-80C8-A30899F629FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CE73377-FA24-4CE2-8C01-ED5E81993745}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CE73377-FA24-4CE2-8C01-ED5E81993745}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CE73377-FA24-4CE2-8C01-ED5E81993745}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CE73377-FA24-4CE2-8C01-ED5E81993745}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD74053C-FB52-4E87-BD19-C7D9E5D1EF48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD74053C-FB52-4E87-BD19-C7D9E5D1EF48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD74053C-FB52-4E87-BD19-C7D9E5D1EF48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD74053C-FB52-4E87-BD19-C7D9E5D1EF48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33C8BDD2-2704-4574-817A-6C5E68233B03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33C8BDD2-2704-4574-817A-6C5E68233B03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33C8BDD2-2704-4574-817A-6C5E68233B03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33C8BDD2-2704-4574-817A-6C5E68233B03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{625EED79-5CFF-4D1C-9500-23E5B9816B8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{625EED79-5CFF-4D1C-9500-23E5B9816B8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{625EED79-5CFF-4D1C-9500-23E5B9816B8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{625EED79-5CFF-4D1C-9500-23E5B9816B8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{589B2C53-5FAF-4E41-944E-4C3F6950AA89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{589B2C53-5FAF-4E41-944E-4C3F6950AA89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{589B2C53-5FAF-4E41-944E-4C3F6950AA89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{589B2C53-5FAF-4E41-944E-4C3F6950AA89}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {686AD1A7-54F4-470E-AD53-93CA70496926}
+	EndGlobalSection
+EndGlobal
